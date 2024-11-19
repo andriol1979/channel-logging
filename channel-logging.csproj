@@ -11,6 +11,7 @@
         <Authors>VuT</Authors>
         <Company>INFOdation</Company>
         <Description>A customized Logging library to push log messages to the channel</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +19,7 @@
       <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="9.0.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0" />
+        <None Include="README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
