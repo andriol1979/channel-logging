@@ -31,7 +31,7 @@ public TestController(LoggerFactoryBuilder loggerFactoryBuilder)
     this.logger = loggerFactoryBuilder.Build().CreateLogger<TestController>();
 }
 ```
-And then you can you logger normally
+And then you can use logger normally
 ```csharp
 [HttpGet("logging-webhook")]
 public IActionResult TestLoggingWebHook()
