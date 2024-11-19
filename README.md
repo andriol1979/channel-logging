@@ -1,7 +1,6 @@
 # channel-logging
 It is a customized Logging library to push log messages to the channel
-
-[//]: # (Special thanks to git@github.com:poychang)
+(Special thanks to git@github.com:poychang)
 
 ## How to implement
 **Step 1: Add some setting values in appsettings.json**
