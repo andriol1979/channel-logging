@@ -1,8 +1,8 @@
 # channel-logging
 It is a customized Logging library to push log messages to the channel
-(Special thanks to git@github.com:poychang)
+_**(Special thanks to [git@github.com:poychang](https://github.com/poychang))**_
 
-## How to implement
+### How to implement
 **Step 1: Add some setting values in appsettings.json**
 ```csharp
 "ChannelLogging": {
