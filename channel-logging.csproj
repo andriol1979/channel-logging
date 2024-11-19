@@ -5,7 +5,7 @@
         <RootNamespace>channel_logging</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Info.ChannelLogging</PackageId>
         <Version>1.0.0</Version>
         <Authors>VuT</Authors>
