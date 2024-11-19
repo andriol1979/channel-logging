@@ -7,7 +7,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Info.ChannelLogging</PackageId>
-        <Version>1.1.1</Version>
+        <Version>2.0.0</Version>
         <Authors>VuT</Authors>
         <Company>INFOdation</Company>
         <Description>A customized Logging library to push log messages to the channel</Description>

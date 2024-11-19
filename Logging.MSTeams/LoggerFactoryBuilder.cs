@@ -8,11 +8,12 @@ public class LoggerFactoryBuilder
     private readonly ILoggerFactory _loggerFactory;
     private readonly ChannelLoggingSetting _channelLoggingSetting;
     
-    public LoggerFactoryBuilder(IOptions<ChannelLoggingSetting> channelLoggingConfig)
+    public LoggerFactoryBuilder(IOptions<ChannelLoggingSetting> channelLoggingConfig,
+        LogLevel minimumLogLevel = LogLevel.Information)
     {
         _channelLoggingSetting = channelLoggingConfig.Value;
         _loggerFactory = LoggerFactory.Create(loggingBuilder => loggingBuilder
-            .SetMinimumLevel(GetLogLevel())
+            .SetMinimumLevel(minimumLogLevel)
             .AddConsole());
     }
 
